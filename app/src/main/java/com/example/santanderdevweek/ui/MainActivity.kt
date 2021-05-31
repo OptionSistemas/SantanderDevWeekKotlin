@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.br.dio.santanderdevweek.data.Conta
 import com.br.dio.santanderdevweek.ui.MainViewModel
 import com.example.santanderdevweek.R
+import java.lang.RuntimeException
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         buscarContaCliente()
+        //throw RuntimeException("Teste crash") // force crash.
     }
 
     private fun buscarContaCliente() {
