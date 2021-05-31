@@ -12,7 +12,7 @@
 <h2 align="center">Desenvolvendo Layout APP Santander</h2>
 
 <p align="center">
-    <img src="./assets/santander.png" alt="santander" tittle="C#" width="70" height="70">
+    <img src="./assets/santander.png" alt="santander" tittle="Santader">
 </p>
 
 <br><h4 align=center>Made with by <a target="_blank" href="optionsistemas@yahoo.com.br" >Reuber Moura</a></h4>
